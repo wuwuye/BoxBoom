@@ -49,7 +49,7 @@ public class WorldView extends SurfaceView implements SurfaceHolder.Callback,Run
 
     @Override
     public void surfaceDestroyed(SurfaceHolder holder) {
-            isRun = false;//销毁
+            isRun = false;//销毁线程
     }
 
     @Override
